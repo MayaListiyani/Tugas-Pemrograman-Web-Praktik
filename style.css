@@ -1,0 +1,85 @@
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: rgb(211, 73, 9);
+    font-size: 66px;
+    text-decoration: underline;
+}
+
+.style-font {
+    background-color: rgb(221, 203, 155);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: Center;
+    color: whitesmoke;
+}
+
+.border1 {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#wrapper {
+    margin: auto;
+    width: 1200px;
+    border: 1px solid white;
+}
+
+#leftmenu a :hover {
+    background: wheat;
+}
+
+#leftmenu a:link a:visited a:active {
+    padding left: 10px;
+    text-decoration: none;
+}
+
+#button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: rgb(240, 160, 12);
+    text-decoration: none;
+    transition: 0.6%;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+}
+
+.main {
+    max-width: 800px;
+    margin: 30px;
+}
